@@ -2,9 +2,17 @@
 var phoneMask = IMask(
   document.getElementById('phone_number'), {
     mask: '+{7}(000)000-00-00',
-    autofix: true,
   });
-
+  document.getElementById("info_client").addEventListener('submit', function(e) {
+  e.preventDefault()
+  let phone =  document.getElementById('phone_number')
+  if(phone.value.length < 16){
+    phone.style.borderBottom = '1px solid red';
+    return
+  }
+  
+  this.submit()
+})
 // Swiper 1 (rates)
 var swiper = new Swiper(".mySwiper1", {
   navigation: {
@@ -94,6 +102,17 @@ var phoneMask2 = IMask(
   document.getElementById('phone_number2'), {
     mask: '+{7}(000)000-00-00'
   });
+
+  document.getElementById("info_client2").addEventListener('submit', function(e) {
+    e.preventDefault()
+    let phone =  document.getElementById('phone_number2')
+    if(phone.value.length < 16){
+      phone.style.borderBottom = '1px solid orange';
+      return
+    }
+    
+    this.submit()
+  })
 
 // Menu burger
 const iconMenu = document.querySelector('.menu_burger');
