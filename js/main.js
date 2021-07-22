@@ -103,17 +103,6 @@ var phoneMask2 = IMask(
     mask: '+{7}(000)000-00-00'
   });
 
-  document.getElementById("info_client2").addEventListener('submit', function(e) {
-    e.preventDefault()
-    let phone =  document.getElementById('phone_number2')
-    if(phone.value.length < 16){
-      phone.style.borderBottom = '1px solid orange';
-      return
-    }
-    
-    this.submit()
-  })
-
 // Menu burger
 const iconMenu = document.querySelector('.menu_burger');
 if (iconMenu) {
