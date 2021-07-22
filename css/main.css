@@ -2996,7 +2996,7 @@ footer {
 
 @media screen and (max-width: 396px) {
   .content {
-    max-width: 360px;
+    max-width: 310px;
     margin: 0 auto;
     padding: 0 10px;
   }
