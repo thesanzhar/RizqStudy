@@ -2779,7 +2779,7 @@ footer {
   }
   .swiper_btn-right3 {
     position: relative;
-    bottom: 235px;
+    bottom: 218px;
     display: block;
   }
 }
@@ -3028,6 +3028,12 @@ footer {
     bottom: 216px;
     display: block;
   } 
+  .rates_header h1 {
+    font-size: 30px;
+  }
+  .services_header h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 320px) {
