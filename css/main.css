@@ -2779,7 +2779,7 @@ footer {
   }
   .swiper_btn-right3 {
     position: relative;
-    bottom: 217px;
+    bottom: 235px;
     display: block;
   }
 }
@@ -2996,7 +2996,7 @@ footer {
 
 @media screen and (max-width: 396px) {
   .content {
-    max-width: 310px;
+    max-width: 350px;
     margin: 0 auto;
     padding: 0 10px;
   }
@@ -3006,15 +3006,28 @@ footer {
     margin: 0 15px;
   }
 
-  .swiper_btn-right {
+  .swiper_btn-left {
     position: relative;
-    bottom: 361px;
+    top: 328px;
   }
 
+  .swiper_btn-right {
+    position: relative;
+    bottom: 360px;
+  }
+  .swiper_btn-left4 {
+    position: relative;
+    top: 358px;
+    }
   .swiper_btn-right4 {
     position: relative;
-    bottom: 347px;
-}
+    bottom: 369px;
+  }
+  .swiper_btn-right3 {
+    position: relative;
+    bottom: 216px;
+    display: block;
+  } 
 }
 
 @media screen and (max-width: 320px) {
